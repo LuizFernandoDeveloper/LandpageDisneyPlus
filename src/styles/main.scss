@@ -3,7 +3,8 @@
 @use '_hero';
 @use '_shows';
 @use '_plans';
-@use'_avaliable-devices';
+@use '_avaliable-devices';
+@use '_faq';
 
 
 @font-face {
@@ -26,6 +27,7 @@
 }
 
 body{
+
     background-color: cores.$corDeFundo;
 
     &::-webkit-scrollbar{
@@ -99,6 +101,7 @@ body{
     border-radius: 4px;
     margin-top: 2vw;
     margin-bottom: 8px;
+    
     &:active{
         transform: translateY(4px);
         box-shadow: 2px 2px 5px 1px cores.$corActiveButtonAssineAgora;
