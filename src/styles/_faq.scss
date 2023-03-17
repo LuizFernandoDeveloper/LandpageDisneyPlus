@@ -36,6 +36,17 @@
                 overflow: hidden;
                 height: 0;
                 transition: height, .9s, ease;
+
+                &__list{
+                    margin-left: 48px;
+                    margin-top: 12px;
+                    list-style-type: disc;
+
+                    li{
+                        margin: 12px 0 ;
+
+                    }
+                }
             }
             
             &--is-open{
