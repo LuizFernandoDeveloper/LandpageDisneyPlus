@@ -41,12 +41,12 @@
             <ul class="hero__content__combos">
                 <li class="hero__content__combos__combo">
                     <img src="./dist/shared/images/logos/disney_star_plus.png" alt="Disney + - Star+  - Combo+">
-                    <button type="button" class="button hero__button">Assine Agora</button>
+                    <button type="button" class="button">Assine Agora</button>
                     <span class="text--medium">R$ 45,90/mês*</span>
                 </li>
                 <li class="hero__content__combos__combo">
                     <img src="./dist/shared/images/logos/disney_star_plus_starzplay.png" alt="Star+ - Disney+ - starzr play">
-                    <button type="button" class="button hero__button">Assine Agora</button>
+                    <button type="button" class="button">Assine Agora</button>
                     <span class="text--medium">R$ 55,90/mês*</span>
                 </li>
             </ul>
@@ -166,7 +166,10 @@
         </div>
     </section>
     <section class="image-text-section  image-text-section--image--full-width">
-        <img src="./dist/shared/images/fundo_rei_leao.png" alt="Imagem com tv, Com computador, Tabelte e celular">
+        <picture>
+            <source media="(max-width: 768px)" srcset="./dist/shared/images/fundo_rei_leao_celular.png">
+            <img src="./dist/shared/images/fundo_rei_leao.png" alt="Rei leão">
+        </picture>
         <div class="image-text-section__text_container image-text-section--image--full-width__text_container">
             <h2 class="title--medium">Baixe filmes e séries</h2>
             <p class="text--big">

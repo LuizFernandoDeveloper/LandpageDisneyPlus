@@ -12,6 +12,7 @@
         &__item{
             background-color: #13151d;
             margin-bottom: 16px;
+
             &__question{
                 color: #ffff;
                 font-size: 20px;
@@ -19,6 +20,11 @@
                 display: block;
                 cursor: pointer;
                 position: relative;
+
+                @media(max-width: 768px){
+                    font-size: 15px;
+                }
+
                 &::after{
                     content: '+';
                     position: absolute;
